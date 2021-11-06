@@ -1,5 +1,1 @@
-n = int(input())
-answer = 0
-for x in range(n):
-    answer = answer + (x + 1)
-print(answer)
+print(sum(list([(i + 1) for i in range(int(input()))])))
